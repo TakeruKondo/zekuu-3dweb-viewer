@@ -1,9 +1,11 @@
-.loader-ui img {
+/* ロゴ画像用のスタイルは不要になったため削除 */
+/* .loader-ui img {
   display: block;
   margin: calc(50vh - 150px) auto;
-}
+} */
 
-@media (min-width: 768px) {
+/* Flex レイアウト関連も entry.js で制御するため削除 */
+/* @media (min-width: 768px) {
   .loader-ui {
     display: flex;
     position: fixed;
@@ -12,10 +14,11 @@
     width: 100vw;
     height: 100vh;
   }
-}
+} */
 
+/* 既存の .loader-ui スタイル */
 .loader-ui {
-  transition: opacity, 2s;
+  transition: opacity 2s; /* フェードアウト用にトランジションのみ残す */
   opacity: 1;
   height: 100vh;
   width: 100vw;
@@ -23,9 +26,45 @@
   z-index: 9999;
   left: 0;
   top: 0;
-  pointer-events: none;
+  pointer-events: none; /* アニメーション中は操作不可に */
+  display: flex; /* スピナーとテキストを中央揃えにしやすくするため flex を再度有効化 */
+  justify-content: center; /* 水平方向中央揃え */
+  align-items: center; /* 垂直方向中央揃え */
+  flex-direction: column; /* 要素を縦に並べる */
 }
 
 .loader-ui-hide {
   opacity: 0;
+}
+
+/* スピナーのスタイル */
+.loader-spinner {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  /* entry.js 側の position: absolute と top/left/transform を削除したので
+     CSS 側で配置調整は不要（親要素の flexbox で中央揃えされる） */
+  margin-bottom: 20px; /* テキストとの間に余白を追加 */
+}
+
+/* ローディングテキストのスタイル */
+.loader-text {
+  font-family: "Roboto", sans-serif; /* メインフォントに合わせる */
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center; /* 複数行テキストを中央揃え */
+  line-height: 1.4; /* 行間を調整 */
+}
+
+/* スピナーのアニメーション */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

@@ -10,21 +10,18 @@ async function loadMainScript() {
 function createLoader() {
   const loaderDiv = document.createElement("div");
   loaderDiv.classList.add("loader-ui");
-  const loaderLogo = document.createElement("img");
-  loaderLogo.src = "images/zekuu-creative-logo.png";
-  loaderDiv.appendChild(loaderLogo);
+
+  const spinner = document.createElement("div");
+  spinner.classList.add("loader-spinner");
+  loaderDiv.appendChild(spinner);
 
   const loadingTextElement = document.createElement("div");
-  loadingTextElement.textContent = "Loading ZEKUU 3D Viewer...";
-  loadingTextElement.style.color = "#000000";
-  loadingTextElement.style.position = "absolute";
-  loadingTextElement.style.top = "calc(50% + 50px)";
-  loadingTextElement.style.left = "50%";
-  loadingTextElement.style.transform = "translateX(-50%)";
-  loadingTextElement.style.fontFamily = "sans-serif";
+  loadingTextElement.innerHTML = "Loading<br>ZEKUU 3D Web Viewer";
+  loadingTextElement.classList.add("loader-text");
+  loadingTextElement.style.color = "#FFFFFF";
   loaderDiv.appendChild(loadingTextElement);
 
-  loaderDiv.style.backgroundColor = "#FFFFFF";
+  loaderDiv.style.backgroundColor = "rgb(17, 24, 39)";
   document.body.appendChild(loaderDiv);
 
   loadMainScript()

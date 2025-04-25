@@ -18,16 +18,8 @@ export default function UserInterface(props) {
   return (
     <StandardUserInterface {...props} version={version}>
       <MenuLeft>
-        {aboutButtonHrefUrl ? (
-          <MenuItem
-            caption="About"
-            href={aboutButtonHrefUrl}
-            key="about-link"
-          />
-        ) : null}
-        {relatedMaps && relatedMaps.length > 0 ? (
-          <RelatedMaps relatedMaps={relatedMaps} />
-        ) : null}
+        {/* aboutButtonHrefUrl のブロックを削除 */}
+        {/* relatedMaps のブロックを削除 */}
       </MenuLeft>
       <ExperimentalMenu />
     </StandardUserInterface>
