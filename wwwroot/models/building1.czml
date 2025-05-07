@@ -1,0 +1,26 @@
+[
+  {
+    "id": "document",
+    "version": "1.0"
+  },
+  {
+    "id": "building1",
+    "name": "Modern Apartment Building 1",
+    "position": {
+      "cartographicDegrees": [
+        139.6917,
+        35.6895,
+        0
+      ]
+    },
+    "model": {
+      "gltf": {
+        "uri": "residential_complex_modern_apartment_building/scene.gltf"
+      },
+      "scale": 1.0,
+      "minimumPixelSize": 128,
+      "maximumScale": 20000,
+      "show": true
+    }
+  }
+] 
