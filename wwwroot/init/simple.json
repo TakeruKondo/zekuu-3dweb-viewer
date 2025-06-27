@@ -94,7 +94,7 @@
         {
           "name": "Sample Mansion",
           "type": "gltf",
-          "url": "models/3dpea.com_sample_mansion/sample-mansion-glb/sample_mansion.glb",
+          "url": "models/sample-mansion/sample_mansion.gltf",
           "origin": {
             "longitude": 139.7517,
             "latitude": 35.6895,
