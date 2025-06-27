@@ -92,9 +92,9 @@
           "scale": 1.5
         },
         {
-          "name": "マンション-7",
+          "name": "Sample Mansion",
           "type": "gltf",
-          "url": "models/マンション/マンション.gltf",
+          "url": "models/3dpea.com_sample_mansion/sample_mansion.gltf",
           "origin": {
             "longitude": 139.7517,
             "latitude": 35.6895,
