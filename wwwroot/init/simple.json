@@ -96,8 +96,8 @@
           "type": "gltf",
           "url": "models/sample-data/sample_data.gltf",
           "origin": {
-            "longitude": 139.69581,
-            "latitude": 35.65034,
+            "longitude": 139.69312,
+            "latitude": 35.6502,
             "height": 0
           },
           "heightReference": "CLAMP_TO_TERRAIN",
