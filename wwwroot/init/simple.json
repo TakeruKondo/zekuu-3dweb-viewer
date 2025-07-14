@@ -116,6 +116,19 @@
           "heightReference": "CLAMP_TO_TERRAIN",
           "id": "building-8",
           "scale": 1.0
+        },
+        {
+          "name": "Sample Data",
+          "type": "gltf",
+          "url": "models/sample-data/sample_data.gltf",
+          "origin": {
+            "longitude": 139.6917,
+            "latitude": 35.6895,
+            "height": 0
+          },
+          "heightReference": "CLAMP_TO_TERRAIN",
+          "id": "building-9",
+          "scale": 1.0
         }
       ]
     },
