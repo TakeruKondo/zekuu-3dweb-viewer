@@ -96,8 +96,8 @@
           "type": "gltf",
           "url": "models/sample-mansion/sample_mansion.gltf",
           "origin": {
-            "longitude": 139.70483,
-            "latitude": 35.68866,
+            "longitude": 139.69708,
+            "latitude": 35.69453,
             "height": 0
           },
           "heightReference": "CLAMP_TO_TERRAIN",
