@@ -96,9 +96,9 @@
           "type": "gltf",
           "url": "models/sample-data/sample_data.gltf",
           "origin": {
-            "longitude": 139.71459,
-            "latitude": 35.65999,
-            "height": 0
+            "longitude": 139.71642,
+            "latitude": 35.65767,
+            "height": -1
           },
           "heightReference": "CLAMP_TO_TERRAIN",
           "id": "building-9",
