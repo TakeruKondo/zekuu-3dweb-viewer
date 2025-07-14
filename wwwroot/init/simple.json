@@ -96,13 +96,13 @@
           "type": "gltf",
           "url": "models/sample-mansion/sample_mansion.gltf",
           "origin": {
-            "longitude": 139.702856,
-            "latitude": 35.668334,
+            "longitude": 139.70483,
+            "latitude": 35.68866,
             "height": 0
           },
           "heightReference": "CLAMP_TO_TERRAIN",
           "id": "building-7",
-          "scale": 80.0
+          "scale": 0
         },
         {
           "name": "Sample Interior",
