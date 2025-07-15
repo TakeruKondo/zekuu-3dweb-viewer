@@ -98,7 +98,7 @@
           "origin": {
             "longitude": 139.71566,
             "latitude": 35.65832,
-            "height": -1
+            "height": -1.5
           },
           "heightReference": "CLAMP_TO_TERRAIN",
           "id": "building-9",
