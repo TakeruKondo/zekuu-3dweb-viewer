@@ -13,85 +13,6 @@
       "isOpen": true,
       "members": [
         {
-          "name": "マンション-01",
-          "type": "gltf",
-          "url": "models/residential_complex_modern_apartment_building/scene.gltf",
-          "origin": {
-            "longitude": 139.6917,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-
-          "id": "building-1",
-          "scale": 1.5
-        },
-        {
-          "name": "マンション-02",
-          "type": "gltf",
-          "url": "models/residential_complex_modern_apartment_building-2/scene.gltf",
-          "origin": {
-            "longitude": 139.7017,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-          "id": "building-2",
-          "scale": 1.5
-        },
-        {
-          "name": "マンション-03",
-          "type": "gltf",
-          "url": "models/residential_complex_modern_apartment_building-3/scene.gltf",
-          "origin": {
-            "longitude": 139.7117,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-          "id": "building-3",
-          "scale": 1.5
-        },
-        {
-          "name": "マンション-04",
-          "type": "gltf",
-          "url": "models/residential_complex_modern_apartment_building-4/scene.gltf",
-          "origin": {
-            "longitude": 139.7217,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-          "id": "building-4",
-          "scale": 1.5
-        },
-        {
-          "name": "マンション-05",
-          "type": "gltf",
-          "url": "models/residential_complex_modern_apartment_building-5/scene.gltf",
-          "origin": {
-            "longitude": 139.7317,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-          "id": "building-5",
-          "scale": 1.5
-        },
-        {
-          "name": "マンション-06",
-          "type": "gltf",
-          "url": "models/modern_residential_complex_apartment_building/scene.gltf",
-          "origin": {
-            "longitude": 139.7417,
-            "latitude": 35.6895,
-            "height": 0
-          },
-          "heightReference": "CLAMP_TO_TERRAIN",
-          "id": "building-6",
-          "scale": 1.5
-        },
-        {
           "name": "Sample Data",
           "type": "gltf",
           "url": "models/sample-data/sample_data.gltf",
@@ -119,18 +40,6 @@
       "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13103_minato-ku/low_resolution/tileset.json"
     },
     {
-      "id": "plateau-chiyoda",
-      "type": "3d-tiles",
-      "name": "千代田区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13101_chiyoda-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-chuo",
-      "type": "3d-tiles",
-      "name": "中央区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13102_chuo-ku/low_resolution/tileset.json"
-    },
-    {
       "id": "plateau-shibuya",
       "type": "3d-tiles",
       "name": "渋谷区テクスチャ付き（低解像度）",
@@ -141,84 +50,6 @@
       "type": "3d-tiles",
       "name": "品川区テクスチャ付き（低解像度）",
       "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13109_shinagawa-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-meguro",
-      "type": "3d-tiles",
-      "name": "目黒区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13110_meguro-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-ota",
-      "type": "3d-tiles",
-      "name": "大田区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13111_ota-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-setagaya",
-      "type": "3d-tiles",
-      "name": "世田谷区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13112_setagaya-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-nakano",
-      "type": "3d-tiles",
-      "name": "中野区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13114_nakano-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-suginami",
-      "type": "3d-tiles",
-      "name": "杉並区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13115_suginami-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-toshima",
-      "type": "3d-tiles",
-      "name": "豊島区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13116_toshima-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-kita",
-      "type": "3d-tiles",
-      "name": "北区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13117_kita-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-arakawa",
-      "type": "3d-tiles",
-      "name": "荒川区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13118_arakawa-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-itabashi",
-      "type": "3d-tiles",
-      "name": "板橋区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13119_itabashi-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-nerima",
-      "type": "3d-tiles",
-      "name": "練馬区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13120_nerima-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-adachi",
-      "type": "3d-tiles",
-      "name": "足立区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13121_adachi-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-katsushika",
-      "type": "3d-tiles",
-      "name": "葛飾区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13122_katsushika-ku/low_resolution/tileset.json"
-    },
-    {
-      "id": "plateau-edogawa",
-      "type": "3d-tiles",
-      "name": "江戸川区テクスチャ付き（低解像度）",
-      "url": "https://plateau.geospatial.jp/main/data/3d-tiles/bldg/13100_tokyo/13123_edogawa-ku/low_resolution/tileset.json"
     }
   ],
   "viewerMode": "3dSmooth",
